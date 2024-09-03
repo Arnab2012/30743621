@@ -3,11 +3,11 @@ Welcome to the Gym Management System project! This console-based application is 
 
 # Table of Contents
 # Features
-1. Member Management
-Register New Members: Add new members to the gym database with relevant details.
-View Member Details: Retrieve and display information about existing members.
-Update Member Information: Modify member details as needed.
-Delete Members: Remove member records from the system.
+1. Member Management<br>
+Register New Members: Add new members to the gym database with relevant details.<br>
+View Member Details: Retrieve and display information about existing members.<br>
+Update Member Information: Modify member details as needed.<br>
+Delete Members: Remove member records from the system.<br>
 
 2. Trainer Management
 Add New Trainers: Include new trainers into the gym's roster.
