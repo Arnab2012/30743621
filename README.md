@@ -4,15 +4,6 @@ Welcome to the **Gym Management System** project! This console-based application
 
 ## Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Database Setup](#database-setup)
-- [Project Setup](#project-setup)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Running the Application](#running-the-application)
-- [Output Samples](#output-samples)
-
 ## Features
 
 ### 1. Member Management
@@ -74,3 +65,60 @@ CREATE TABLE ClassSchedule (
     end_time TIME,
     FOREIGN KEY (trainer_id) REFERENCES Trainer(trainer_id)
 );
+
+## Project Setup
+
+### Configure Database Connection
+
+1. Open `src/com/gymmanagement/dao/DatabaseConnection.java`.
+2. Update the database URL, username, and password as per your MySQL configuration:
+
+```java
+private static String URL = "jdbc:mysql://localhost:3306/gym_management";
+private static String USER = "your_mysql_username";
+private static String PASSWORD = "your_mysql_password";
+
+## Usage
+
+Upon running the application, you will be presented with a menu-driven interface that allows you to perform various operations:
+
+![Start](https://github.com/user-attachments/assets/b684a707-eb1b-4451-ba86-cfbb4f05961b)
+
+### 1. Member Management
+
+Selecting Member Management will present you with the following options:
+
+![Member](https://github.com/user-attachments/assets/3793dbd2-dbd8-4619-9bbd-18efb501c94e)
+
+### 2. Trainer Management
+
+Selecting Trainer Management will present you with the following options:
+
+![Trainer](https://github.com/user-attachments/assets/a408cb66-aa2d-4a37-a143-de30d4c73f4b)
+
+### 3. Class Schedule Management
+
+Selecting Class Schedule Management will present you with the following options:
+
+![Class](https://github.com/user-attachments/assets/faee366f-2132-4f4c-8645-e7fb0b5cead0)
+
+## Project Structure
+
+The project follows a modular structure for better organization and maintainability:
+
+```plaintext
+src/
+├── com/
+    └── gymmanagement/
+        ├── dao/
+        │   ├── MemberDAO.java
+        │   ├── TrainerDAO.java
+        │   ├── ClassScheduleDAO.java
+        │   └── DatabaseConnection.java
+        ├── model/
+        │   ├── Member.java
+        │   ├── Trainer.java
+        │   └── ClassSchedule.java
+        └── main/
+            └── GymManagementSystem.java
+
