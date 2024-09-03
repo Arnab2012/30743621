@@ -65,7 +65,7 @@ CREATE TABLE ClassSchedule (
     end_time TIME,
     FOREIGN KEY (trainer_id) REFERENCES Trainer(trainer_id)
 );
-
+```
 ## Project Setup
 
 ### Configure Database Connection
@@ -77,6 +77,7 @@ CREATE TABLE ClassSchedule (
 private static String URL = "jdbc:mysql://localhost:3306/gym_management";
 private static String USER = "your_mysql_username";
 private static String PASSWORD = "your_mysql_password";
+```
 
 ## Usage
 
@@ -121,4 +122,5 @@ src/
         │   └── ClassSchedule.java
         └── main/
             └── GymManagementSystem.java
+```
 
