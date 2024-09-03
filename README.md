@@ -134,12 +134,10 @@ java -cp bin com.gymmanagement.main.GymManagementSystem
 ```
 # Output Samples
 Member Registration
-Sample output when registering a new member:
-
+![Add Member](https://github.com/user-attachments/assets/675c1ac3-075b-4ba9-963e-95b67f4ddfc8)
 
 Viewing Trainer Details
-Sample output when viewing trainer details:
-
+![Trainer Details](https://github.com/user-attachments/assets/46d80810-16e5-4abf-914a-1ff3f4dca2bf)
 
 Creating Class Schedule
-Sample output when creating a new class schedule:
+![Add Class Schedule](https://github.com/user-attachments/assets/e7f470df-843c-4422-a499-8cefdbfa25be)
