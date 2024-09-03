@@ -85,27 +85,25 @@ Upon running the application, you will be presented with a menu-driven interface
 
 ![Start](https://github.com/user-attachments/assets/b684a707-eb1b-4451-ba86-cfbb4f05961b)
 
-### 1. Member Management
+<table>
+    <tr>
+        <td><strong>Member Management</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/3793dbd2-dbd8-4619-9bbd-18efb501c94e" alt="Member"></td>
+    </tr>
+    <tr>
+        <td><strong>Trainer Management</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/a408cb66-aa2d-4a37-a143-de30d4c73f4b" alt="Trainer"></td>
+    </tr>
+    <tr>
+        <td><strong>Class Schedule Management</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/faee366f-2132-4f4c-8645-e7fb0b5cead0" alt="Class"></td>
+    </tr>
+</table>
 
-Selecting Member Management will present you with the following options:
-
-![Member](https://github.com/user-attachments/assets/3793dbd2-dbd8-4619-9bbd-18efb501c94e)
-
-### 2. Trainer Management
-
-Selecting Trainer Management will present you with the following options:
-
-![Trainer](https://github.com/user-attachments/assets/a408cb66-aa2d-4a37-a143-de30d4c73f4b)
-
-### 3. Class Schedule Management
-
-Selecting Class Schedule Management will present you with the following options:
-
-![Class](https://github.com/user-attachments/assets/faee366f-2132-4f4c-8645-e7fb0b5cead0)
 
 ## Project Structure
 
-The project follows a modular structure for better organization and maintainability:
+# The project follows a modular structure for better organization and maintainability:
 
 ```plaintext
 src/
@@ -133,11 +131,24 @@ Run the Application:- Once the compilation is successful, you can run the applic
 java -cp bin com.gymmanagement.main.GymManagementSystem
 ```
 # Output Samples
-Member Registration
-![Add Member](https://github.com/user-attachments/assets/675c1ac3-075b-4ba9-963e-95b67f4ddfc8)
+<table>
+    <tr>
+        <td><strong>Member Registration</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/f2cff7ab-873f-407d-a0db-aa2557c3f4c8" alt="Member Addition"></td>
+        <td><strong>Member Updation</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/42f667d3-2554-4779-ac4d-0fd90f43efde" alt="Member Updation"></td>
+    </tr>
+    <tr>
+        <td><strong>View Trainer Details</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/6307659e-755d-4694-a38d-7d1b18ecae43" alt="View Trainer Details"></td>
+        <td><strong>Trainer Deletion</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/f15a13c8-5a3a-41b7-9261-63b19dd96736" alt="Trainer Deletion"></td>
+    </tr>
+    <tr>
+        <td><strong>Add Class Schedule</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/d94b47b6-8cfa-485d-bcc6-4822ffb54900" alt="Add Class"></td>
+        <td><strong>View Class Schedule based on scheduleId</strong></td>
+        <td><img src="https://github.com/user-attachments/assets/f6bca136-ca30-4528-af87-3e410b386294" alt="View Class"></td>
+    </tr>
+</table>
 
-Viewing Trainer Details
-![Trainer Details](https://github.com/user-attachments/assets/46d80810-16e5-4abf-914a-1ff3f4dca2bf)
-
-Creating Class Schedule
-![Add Class Schedule](https://github.com/user-attachments/assets/e7f470df-843c-4422-a499-8cefdbfa25be)
