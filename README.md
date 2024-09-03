@@ -123,4 +123,23 @@ src/
         └── main/
             └── GymManagementSystem.java
 ```
+# Running the application
+Compile the Java Files:- Before running the application, you need to compile the Java source files. Use the following command to compile the files
+```java
+javac -d bin src/com/gymmanagement/*.java
+```
+Run the Application:- Once the compilation is successful, you can run the application using the following command
+```java
+java -cp bin com.gymmanagement.main.GymManagementSystem
+```
+# Output Samples
+Member Registration
+Sample output when registering a new member:
 
+
+Viewing Trainer Details
+Sample output when viewing trainer details:
+
+
+Creating Class Schedule
+Sample output when creating a new class schedule:
